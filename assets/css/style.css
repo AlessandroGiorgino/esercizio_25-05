@@ -33,7 +33,7 @@ body {
 }
 /* DIV MEGA */
 .mega {
-  width: 75%;
+  width: 50%;
   max-width: 500px;
   min-width: 250px;
   margin: auto;
@@ -54,6 +54,9 @@ body {
 .testa img {
   width: 75%;
   margin-bottom: 1em;
+  margin-left: 2em;
+  margin-top: 1em;
+
   /* CENTRARLA */
 }
 .testa ul,
