@@ -1,0 +1,128 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Poppins:wght@100;400;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: xxx-large;
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+body {
+  background-image: url(/assets/img/sfondo.png);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* DIV MEGA */
+.mega {
+  width: 75%;
+  max-width: 500px;
+  min-width: 250px;
+  margin: auto;
+  height: 100%;
+}
+
+/* HEADER */
+/* ricorda di mettere le frecce a destra e sinistra con  ::before  e ::after  */
+.testa {
+  height: 25vh;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom, #2bafcf, #006f8a);
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  box-shadow: 5px 5px 8px 1px #888888;
+}
+.testa img {
+  width: 75%;
+  margin-bottom: 1em;
+  /* CENTRARLA */
+}
+.testa ul,
+li,
+p {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  background-color: white;
+  height: 80%;
+  box-shadow: 5px 5px 8px 1px #888888;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.centrale li,
+ol,
+ul {
+  margin-top: 1em;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  text-align: start;
+  font-weight: 300;
+  list-style-type: disc;
+}
+.centrale p {
+  text-align: start;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+/* la p di autore ha due icone che mettiamo con ::before e ::after oppire come icona e basta */
+/* la pa con class daInline la mettiamo inline block */
+.daInline {
+  display: inline-block;
+  color: #888888;
+  margin-left: 0px;
+}
+.fas {
+  margin-left: 20px;
+}
+.containerVideo {
+  display: flex;
+  justify-content: center;
+}
+.videoEpicode {
+  width: 85%;
+  height: 15em;
+  margin: auto;
+  border-radius: 5%;
+  margin-bottom: 2em;
+}
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+  height: 8em;
+
+  background-image: linear-gradient(to bottom, #2bafcf, #006f8a);
+}
